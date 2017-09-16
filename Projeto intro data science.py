@@ -31,7 +31,6 @@ weather_df = pd.read_csv('/Users/FabianaBoldrin/Documents/Udacity/ndfdsi-bikesha
 # Lemos o data frame de registro de estações
 stations_df = pd.read_csv('/Users/FabianaBoldrin/Documents/Udacity/ndfdsi-bikeshareanalysis/201402_station_data.csv')
 
-print(trips_df[['Duration']])
 
 
 # Para dar início à analise, faremos a limpeza dos dados, mudando o formato de algumas colunas para facilitar a análise propriamente dita.
